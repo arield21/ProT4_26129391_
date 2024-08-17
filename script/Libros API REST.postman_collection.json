@@ -1,0 +1,1355 @@
+{
+	"info": {
+		"_postman_id": "f84617e2-0a9f-49db-9de1-a345ec5fc37e",
+		"name": "Libros API REST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37612115"
+	},
+	"item": [
+		{
+			"name": "consultalistado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/libros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"libros"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "consulta_listado",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/libros",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libros"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "889"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"379-pMqfg5YryCHe3KvibCNZvLwCXiE\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 16 Aug 2024 21:41:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"nombre\": \"Redes Television y Elecciones\",\n        \"autor\": \"Ana Slimovich\",\n        \"categoria\": \"Comunicacion\",\n        \"ano-publicacion\": \"2022-03-01T03:00:00.000Z\",\n        \"ISBN\": \"9789502331997\"\n    },\n    {\n        \"id\": 2,\n        \"nombre\": \"Ingenieria Electromagnetica\",\n        \"autor\": \"Juan Carlos Fernandez\",\n        \"categoria\": \"Ing Informatica y Matematica\",\n        \"ano-publicacion\": \"2013-03-01T03:00:00.000Z\",\n        \"ISBN\": \"9789502320946\"\n    },\n    {\n        \"id\": 3,\n        \"nombre\": \"Lenguaje Politico Argentino\",\n        \"autor\": \"Anibal Americo D´Auria\",\n        \"categoria\": \"Politica\",\n        \"ano-publicacion\": \"2024-03-04T03:00:00.000Z\",\n        \"ISBN\": \"9789502334516\"\n    },\n    {\n        \"id\": 4,\n        \"nombre\": \"El estudio de los signos\",\n        \"autor\": \"Maria Alejandra Vitale\",\n        \"categoria\": \"Semiotica\",\n        \"ano-publicacion\": \"2010-04-01T03:00:00.000Z\",\n        \"ISBN\": \"9789502312347\"\n    },\n    {\n        \"id\": 5,\n        \"nombre\": \"Diseño Estadistico\",\n        \"autor\": \"Nuria Cortada De Kohan\",\n        \"categoria\": \"Ing, Informatica y Matematica\",\n        \"ano-publicacion\": \"2010-05-03T03:00:00.000Z\",\n        \"ISBN\": \"9789502305691\"\n    }\n]"
+				},
+				{
+					"name": "consultalistado",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/libros",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libros"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "496"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f0-gNix7uyD46Cmqy8xtiltoAUHoCw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 04:36:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 4,\n        \"nombre\": \"Cien años de soledad\",\n        \"autor\": \"Gabriel García Márquez\",\n        \"categoria\": \"Ficción\",\n        \"ano_publicacion\": \"1967-06-05T04:00:00.000Z\",\n        \"ISBN\": \"9783161484100\"\n    },\n    {\n        \"id\": 5,\n        \"nombre\": \"Don Quijote de la Mancha\",\n        \"autor\": \"Miguel de Cervantes\",\n        \"categoria\": \"Ficción\",\n        \"ano_publicacion\": \"1605-01-16T03:53:48.000Z\",\n        \"ISBN\": \"9783161484101\"\n    },\n    {\n        \"id\": 6,\n        \"nombre\": \"El Principito\",\n        \"autor\": \"Antoine de Saint-Exupéry\",\n        \"categoria\": \"Ficción\",\n        \"ano_publicacion\": \"1943-04-06T03:00:00.000Z\",\n        \"ISBN\": \"9783161484102\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "xlibro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/libro/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"libro",
+						"6"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "x_id_libro",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/libro/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro",
+								"4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "169"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a9-5/yzNnUI8ZhspvKwtZe3BrIlBJc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 16 Aug 2024 21:43:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 4,\n    \"nombre\": \"El estudio de los signos\",\n    \"autor\": \"Maria Alejandra Vitale\",\n    \"categoria\": \"Semiotica\",\n    \"ano-publicacion\": \"2010-04-01T03:00:00.000Z\",\n    \"ISBN\": \"9789502312347\"\n}"
+				},
+				{
+					"name": "xlibro",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/libro/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro",
+								"6"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "160"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a0-4dwcHIWWT00J26MNsMVDfWn/kYo\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 04:37:13 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 6,\n    \"nombre\": \"El Principito\",\n    \"autor\": \"Antoine de Saint-Exupéry\",\n    \"categoria\": \"Ficción\",\n    \"ano_publicacion\": \"1943-04-06T03:00:00.000Z\",\n    \"ISBN\": \"9783161484102\"\n}"
+				}
+			]
+		},
+		{
+			"name": "post_agregar_libro_nuevo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"id\": 2,\r\n    \"nombre\": \"Caulquiera\",\r\n    \"autor\": \"George Orwell Actual\",\r\n    \"categoria\": \"Ficción Actual\",\r\n    \"ano_publicacion\": \"1949-04-05\",\r\n    \"ISBN\": \"1234452337886\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/libro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"libro"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "post_error agregar_",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Diseño Agregado\",\r\n    \"autor\": \"Nuria Agregada\",\r\n    \"categoria\": \"Ing, Informatica Agregada\",\r\n    \"ano-publicacion\": \"2010-10-02\",\r\n    \"ISBN\": \"9789502305999\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "37"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"25-KDY+Ex9j4DU8o0nUJaJ2WHs52dM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 16 Aug 2024 21:47:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"Error al agregar el libro\"\n}"
+				},
+				{
+					"name": "post_Insert_7",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Nuevo Libro\",\r\n    \"autor\": \"Autor Desconocido\",\r\n    \"categoria\": \"Ficción\",\r\n    \"ano_publicacion\": \"2024-01-01\",\r\n    \"ISBN\": \"9783161488930\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "18"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"12-MQulUnbwQV0AHf+UM8Mpuxwkddc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 04:38:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Id insertado\": 7\n}"
+				},
+				{
+					"name": "post_error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\": \"Diseño Agregado\",\r\n    \"autor\": \"Nuria Agregada\",\r\n    \"categoria\": \"Ing, Informatica Agregada\",\r\n    \"ano-publicacion\": \"2010-10-02\",\r\n    \"ISBN\": \"9789502305999\"  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "37"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"25-KDY+Ex9j4DU8o0nUJaJ2WHs52dM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 04:40:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"Error al agregar el libro\"\n}"
+				},
+				{
+					"name": "post_Insert_8",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\": \"Diseño Agregado\",\r\n    \"autor\": \"Nuria Agregada\",\r\n    \"categoria\": \"Ing, Informatica Agregada\",\r\n    \"ano_publicacion\": \"2010-10-02\",\r\n    \"ISBN\": \"9789502305999\"  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "18"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"12-86c8xhFglniIF9/JAK670QLiMiw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 04:44:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Id insertado\": 8\n}"
+				},
+				{
+					"name": "post_insert_9",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\": \"Marketing Extraordinario\",\r\n    \"autor\": \"Damian Di Pace\",\r\n    \"categoria\": \"Economia\",\r\n    \"ano_publicacion\": \"2016-03-03\",\r\n    \"ISBN\": 9789502325620  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "18"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"12-1g8iKrvbUQlZwrn7ZmCaweWylyI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 04:47:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Id insertado\": 9\n}"
+				},
+				{
+					"name": "post_insert_15",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"id\": 2,\r\n    \"nombre\": \"Caulquiera\",\r\n    \"autor\": \"George Orwell Actual\",\r\n    \"categoria\": \"Ficción Actual\",\r\n    \"ano_publicacion\": \"1949-04-05\",\r\n    \"ISBN\": \"1234452337886\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "19"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"13-4JRod8c9pJby0SOa9rxH+EpltOc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 05:09:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Id insertado\": 15\n}"
+				}
+			]
+		},
+		{
+			"name": "Met Put_Actualiz_Libro",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"nombre\": \"Caulquiera\",\r\n    \"autor\": \"George Orwell Actual\",\r\n    \"categoria\": \"Ficción Actual\",\r\n    \"ano_publicacion\": \"1949-04-05\",\r\n    \"ISBN\": \"1234452337886\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/libro/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"libro",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Error_actualiz",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"1984 Actual\",\r\n    \"autor\": \"George Orwell Actual\",\r\n    \"categoria\": \"Ficción Actual\",\r\n    \"ano_publicacion\": \"1949\",\r\n    \"ISBN\": \"9780452333256\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro",
+								"7"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"28-G60gYNZUbKmBAOdY9sar27ICBGQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 04:58:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"Error al actualizar el libro\"\n}"
+				},
+				{
+					"name": "Libro_actualizado",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"1984 Actual\",\r\n    \"autor\": \"George Orwell Actual\",\r\n    \"categoria\": \"Ficción Actual\",\r\n    \"ano_publicacion\": \"1949-04-05\",\r\n    \"ISBN\": \"9780452333256\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro",
+								"7"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-AA1F8GwaAfRNihYPnZNrchmwtB4\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 05:03:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Libro actualizado\"\n}"
+				}
+			]
+		},
+		{
+			"name": "_agregar_libro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"otro Libro\",\r\n    \"autor\": \"Autor Equis\",\r\n    \"categoria\": \"Ficción\",\r\n    \"ano_publicacion\": \"2024-01-01\",\r\n    \"ISBN\": \"008-3-16-000010-2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/libro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"libro"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "libro_insertad_id_16",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"otro Libro\",\r\n    \"autor\": \"Autor Equis\",\r\n    \"categoria\": \"Ficción\",\r\n    \"ano_publicacion\": \"2024-01-01\",\r\n    \"ISBN\": \"008-3-16-000010-2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "19"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"13-TKmTHnP3YsM1vqRWnGZgj3jRZRA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 05:17:43 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Id insertado\": 16\n}"
+				}
+			]
+		},
+		{
+			"name": "delete_borrar_libro",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/libro/9783161484101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"libro",
+						"9783161484101"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Libro_Eliminado_",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro/9783161484102",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro",
+								"9783161484102"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "29"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1d-hN77IP+LUnRMebpA1hOrGfv2VJI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 05:14:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Libro eliminado\"\n}"
+				},
+				{
+					"name": "error_no_encontrado",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro",
+								"5"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-r40I3blXCrq1C/QbVOowi+bee9Y\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 05:15:43 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"Libro no encontrado\"\n}"
+				},
+				{
+					"name": "Libro _Eliminado",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro/9783161484101",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro",
+								"9783161484101"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "29"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1d-hN77IP+LUnRMebpA1hOrGfv2VJI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 05:16:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Libro eliminado\"\n}"
+				}
+			]
+		},
+		{
+			"name": "excepciones",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Precio\": \"Libro Actualizado\",\r\n    \"Stock\": \"Autor Actualizado\",\r\n    \"cantidad\": \"No Ficción\",\r\n    \"fecha\": \"2024-01-01\",\r\n    \"tamaño\": \"9783167845992\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/libro/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"libro",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "error_",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Precio\": \"Libro Actualizado\",\r\n    \"Stock\": \"Autor Actualizado\",\r\n    \"cantidad\": \"No Ficción\",\r\n    \"fecha\": \"2024-01-01\",\r\n    \"tamaño\": \"9783161484102\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libros/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libros",
+								""
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "147"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 05:21:50 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot POST /libros/</pre>\n    </body>\n</html>"
+				},
+				{
+					"name": "error_al agrgarlibro",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Precio\": \"Libro Actualizado\",\r\n    \"Stock\": \"Autor Actualizado\",\r\n    \"cantidad\": \"No Ficción\",\r\n    \"fecha\": \"2024-01-01\",\r\n    \"tamaño\": \"9783161999902\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro",
+								""
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "37"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"25-KDY+Ex9j4DU8o0nUJaJ2WHs52dM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 05:22:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"Error al agregar el libro\"\n}"
+				},
+				{
+					"name": "error_alAgregarLibro",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Precio\": \"Libro Actualizado\",\r\n    \"Stock\": \"Autor Actualizado\",\r\n    \"cantidad\": \"No Ficción\",\r\n    \"fecha\": \"2024-01-01\",\r\n    \"tamaño\": \"9783167845992\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/libro/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"libro",
+								""
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "37"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"25-KDY+Ex9j4DU8o0nUJaJ2WHs52dM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 17 Aug 2024 05:24:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"Error al agregar el libro\"\n}"
+				}
+			]
+		}
+	]
+}

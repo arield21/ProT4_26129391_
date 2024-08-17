@@ -1,0 +1,12 @@
+
+   *  Base de datos ==>  rest-api
+
+   *  Tabla         ==>  libros.sql
+
+      
+   *  Archivo exportado de postman de las respuestas recibidas  
+       Libros API REST.postman_collection.json 
+
+   *  Vistas del localhost:3000/libros
+        localhost_3000_libros.json 
+
