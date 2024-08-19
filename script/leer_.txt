@@ -1,12 +1,15 @@
 
-   *  Base de datos ==>  rest-api
+   *  Base de datos ==>  [rest-api.sql]
 
-   *  Tabla de la base de datos         ==>  libros.sql
+   *  Tabla de la base de datos         ==>  [libros.sql]
 
       
    *  Archivo exportado de postman de las respuestas recibidas  
-       Libros API REST.postman_collection.json 
+       [Libros API REST.postman_collection.json]
 
    *  Vista del localhost:3000/libros
-        localhost_3000_libros.json 
+        [localhost_3000_libros.json] 
+
+   *  Archivo descripcion TP4 presentado 
+        [ProT4_26129391_descripcion_entrega _moodle_TP4]
 
